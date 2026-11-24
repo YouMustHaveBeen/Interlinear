@@ -86,8 +86,8 @@
   </header>
 
   <div class="get">
-    <p class="meta">Version 1.8 · requires Chrome 138 or newer · about 150 KB</p>
-    <a class="dl" href="interlinear-lyrics-1.8.zip" download>Download ZIP</a>
+    <p class="meta">Version 1.9 · requires Chrome 138 or newer · about 150 KB</p>
+    <a class="dl" href="interlinear-lyrics-1.9.zip" download>Download ZIP</a>
   </div>
 
   <section>
@@ -95,7 +95,7 @@
     <ul class="feat">
       <li><strong>A translation under each line</strong>When the lyrics are open in Spotify, a Russian translation appears under every English line, in step with the highlighted line.</li>
       <li><strong>Medallion button</strong>Bottom right of the page. Dark medallion: translation off. Glowing medallion: translation on. A tooltip shows on hover.</li>
-      <li><strong>Track tempo (BPM)</strong>Above the medallion it shows the tempo and time signature of the playing song, for example &ldquo;103 BPM · 4/4&rdquo;. The data comes from <a href="https://getsongbpm.com" target="_blank" rel="noopener">GetSongBPM.com</a> and needs their free API key.</li>
+      <li><strong>Track tempo (BPM)</strong>Above the medallion it shows the tempo of the playing song, for example &ldquo;103 BPM&rdquo;. The data comes from <a href="https://sonovault.now" target="_blank" rel="noopener">SonoVault</a> and needs their free API key.</li>
     </ul>
   </section>
 
@@ -108,7 +108,7 @@
       <li>Click &ldquo;Load unpacked&rdquo; and choose the unzipped folder.</li>
       <li>Open <code>open.spotify.com</code>, play a song and open its lyrics (the microphone button in the player).</li>
       <li>Click the medallion at the bottom right. On first use Chrome downloads the Russian language pack once.</li>
-      <li>For the tempo: get a key at <a href="https://getsongbpm.com/api" target="_blank" rel="noopener">getsongbpm.com/api</a>, click the badge above the medallion that asks for a key, and paste the key in.</li>
+      <li>For the tempo: get a free key at <a href="https://sonovault.now" target="_blank" rel="noopener">sonovault.now</a> and confirm your email address. Then click the badge above the medallion that asks for a key, and paste the key in.</li>
     </ol>
   </section>
 
@@ -116,15 +116,15 @@
     <h2>Good to know</h2>
     <ul class="feat">
       <li><strong>The translation is machine-made</strong>It is done by Chrome&rsquo;s built-in translator on your own computer, and the lyrics are not sent anywhere. Figurative lyrics can come out too literal.</li>
-      <li><strong>Title and artist go to the tempo database</strong>Only to show the BPM: the extension sends the track title and artist name to GetSongBPM, together with your key. The key is stored in your Chrome.</li>
+      <li><strong>Title and artist go to the tempo database</strong>Only to show the BPM: the extension sends the track title and artist name to SonoVault, together with your key. The key is stored in your Chrome. The free key allows 1,000 lookups per month, and every track is looked up only once, so each person should get their own key.</li>
       <li><strong>It can break</strong>The extension reads the Spotify page, and Spotify may change it. Then the translation or the tempo stops showing until the extension is updated.</li>
-      <li><strong>The tempo is approximate</strong>Some songs are not in the database, and for songs with a changing tempo it is a single averaged number.</li>
+      <li><strong>The tempo is approximate</strong>Some songs are not in the database or have not been analysed yet, and for songs with a changing tempo it is a single averaged number.</li>
       <li><strong>Russian labels</strong>The extension&rsquo;s own labels, such as the button tooltip and the badge messages, are in Russian for now.</li>
     </ul>
   </section>
 
   <footer>
-    A personal, unofficial project. It is not affiliated with Spotify, Google or GetSongBPM. Tempo data: <a href="https://getsongbpm.com" target="_blank" rel="noopener">GetSongBPM.com</a>.
+    A personal, unofficial project. It is not affiliated with Spotify, Google or SonoVault. Tempo data: <a href="https://sonovault.now" target="_blank" rel="noopener">SonoVault</a>.
   </footer>
 </main>
 
